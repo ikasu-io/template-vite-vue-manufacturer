@@ -12,7 +12,7 @@ const site = 'Ebersgrund Wärmetechnik'
 export const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', component: HomeView, meta: { title: `${site} – Wärmepumpen aus Nordhessen` } },
+    { path: '/', component: HomeView, meta: { title: `${site} – Wärmepumpen von der Schwäbischen Alb` } },
     { path: '/impressum/', component: ImpressumView, meta: { title: `Impressum – ${site}` } },
     { path: '/datenschutz/', component: DatenschutzView, meta: { title: `Datenschutz – ${site}` } },
     { path: '/:path(.*)*', component: NotFoundView, meta: { title: `Seite nicht gefunden – ${site}` } },

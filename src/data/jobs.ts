@@ -27,7 +27,7 @@ export const jobs: Job[] = [
     text: 'Sie entwickeln die Regelung unserer Geräte weiter, vom Abtauen bis zur Kaskade mehrerer Geräte.',
   },
   {
-    title: 'Servicetechniker/in Nord- und Osthessen',
+    title: 'Servicetechniker/in Alb und Oberschwaben',
     team: 'Kundendienst',
     location: 'Ebersgrund, mit Firmenwagen',
     type: 'Vollzeit',

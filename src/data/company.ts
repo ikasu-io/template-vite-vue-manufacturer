@@ -4,11 +4,11 @@
 export const company = {
   name: 'Ebersgrund Wärmetechnik GmbH',
   shortName: 'Ebersgrund',
-  tagline: 'Wärme aus der Luft. Gebaut in Nordhessen.',
+  tagline: 'Wärme aus der Luft. Gebaut auf der Schwäbischen Alb.',
   street: 'Industriestraße 7',
-  postcode: '34999',
+  postcode: '72999',
   town: 'Ebersgrund',
-  region: 'Hessen',
+  region: 'Baden-Württemberg',
   email: 'info@ebersgrund-waerme.example',
   emails: {
     homeowners: 'beratung@ebersgrund-waerme.example',

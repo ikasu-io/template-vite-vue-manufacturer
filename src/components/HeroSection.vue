@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Kopfbereich: eine Landschaft in Nordhessen aus SVG-Ebenen. Beim Scrollen
+// Kopfbereich: eine Landschaft auf der Schwäbischen Alb aus SVG-Ebenen. Beim Scrollen
 // bewegen sich die hinteren Ebenen langsamer als die vorderen (Parallaxe).
 import { ref } from 'vue'
 
@@ -25,9 +25,9 @@ const shift = (px: number) => ({ transform: `translate3d(0, calc((var(--progress
       <p class="mb-4 font-condensed text-sm font-semibold uppercase tracking-[0.2em] text-frost-dark">
         Wärmepumpen aus Ebersgrund · seit 2008
       </p>
-      <h1 class="max-w-4xl text-[clamp(2.6rem,7vw,5.75rem)] leading-[0.95]">
+      <h1 class="max-w-6xl text-[clamp(2.6rem,6.5vw,5rem)] leading-[0.95]">
         Wärme aus der Luft.<br />
-        <span class="text-heat-dark">Gebaut in Nordhessen.</span>
+        <span class="text-heat-dark">Gebaut auf der Schwäbischen Alb.</span>
       </h1>
       <p class="mt-6 max-w-xl text-steel sm:text-lg">
         Wir entwickeln, bauen und prüfen Wärmepumpen für Häuser, Mehrfamilienhäuser und Betriebe, alle mit dem
