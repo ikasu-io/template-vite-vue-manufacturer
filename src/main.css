@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/ibm-plex-sans';
+@import '@fontsource/ibm-plex-sans-condensed/latin-600.css';
+@import '@fontsource/ibm-plex-sans-condensed/latin-700.css';
+
+/* Farben und Schriften. Eine Farbe hier ändern, und die ganze Seite folgt,
+   auch die Landschaft im Kopf und die Diagramme. */
+@theme {
+  --color-cloud: #f2f4f5;
+  --color-graphite: #1c2329;
+  --color-steel: #56616b;
+  --color-line: #d8dde1;
+  --color-heat: #e8590c;
+  --color-heat-dark: #b8460a;
+  --color-frost: #2f7fb8;
+  --color-frost-dark: #23628f;
+  --color-meadow: #6e9b3e;
+
+  --font-sans: 'IBM Plex Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-condensed: 'IBM Plex Sans Condensed', 'IBM Plex Sans Variable', ui-sans-serif, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: #fff;
+    color: var(--color-graphite);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-condensed);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-heat) 30%, transparent);
+  }
+}
+
+@utility container-page {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-inline: 1rem;
+  @media (min-width: 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (min-width: 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

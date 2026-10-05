@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebersgrund Wärmetechnik – Wärmepumpen aus Nordhessen</title>
+    <meta name="description" content="Luft- und Sole-Wärmepumpen mit dem Kältemittel R290, entwickelt und gebaut in Ebersgrund, Nordhessen. Familienunternehmen seit 1962." />
+    <meta name="theme-color" content="#1C2329" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Die Schriften des ersten Bildschirms, damit sie mit der Seite laden und nicht erst nach dem JavaScript. -->
+    <link rel="preload" href="/node_modules/@fontsource-variable/ibm-plex-sans/files/ibm-plex-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/node_modules/@fontsource/ibm-plex-sans-condensed/files/ibm-plex-sans-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/node_modules/@fontsource/ibm-plex-sans-condensed/files/ibm-plex-sans-condensed-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="Ebersgrund Wärmetechnik" />
+    <meta property="og:title" content="Ebersgrund Wärmetechnik – Wärme aus der Luft. Gebaut in Nordhessen." />
+    <meta property="og:description" content="Wärmepumpen mit R290, entwickelt und gebaut in Ebersgrund." />
+    <meta property="og:url" content="https://ebersgrund-waerme.example/" />
+    <meta property="og:image" content="https://ebersgrund-waerme.example/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://ebersgrund-waerme.example/#org",
+            "name": "Ebersgrund Wärmetechnik GmbH",
+            "url": "https://ebersgrund-waerme.example/",
+            "email": "info@ebersgrund-waerme.example",
+            "foundingDate": "1962",
+            "numberOfEmployees": { "@type": "QuantitativeValue", "value": 340 },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Industriestraße 7",
+              "postalCode": "34999",
+              "addressLocality": "Ebersgrund",
+              "addressRegion": "Hessen",
+              "addressCountry": "DE"
+            }
+          },
+          { "@type": "Product", "name": "Luftwerk 8", "category": "Luft-Wasser-Wärmepumpe", "manufacturer": { "@id": "https://ebersgrund-waerme.example/#org" } },
+          { "@type": "Product", "name": "Luftwerk 12", "category": "Luft-Wasser-Wärmepumpe", "manufacturer": { "@id": "https://ebersgrund-waerme.example/#org" } },
+          { "@type": "Product", "name": "Erdwerk 10", "category": "Sole-Wasser-Wärmepumpe", "manufacturer": { "@id": "https://ebersgrund-waerme.example/#org" } },
+          { "@type": "Product", "name": "Luftwerk 40 Pro", "category": "Luft-Wasser-Wärmepumpe", "manufacturer": { "@id": "https://ebersgrund-waerme.example/#org" } }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
