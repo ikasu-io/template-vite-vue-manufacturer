@@ -63,6 +63,14 @@ needed; add new pages to `pages` in `vite.config.ts`. Change
 `ebersgrund-waerme.example` in `index.html`, `public/robots.txt` and
 `public/sitemap.xml` to your domain.
 
+## Using this for a real site
+
+The images look real but were generated with AI, and the
+notice in the footer is what labels them. If you publish a real site with
+them and remove that notice, you may have to label them yourself, for
+example under Article 50 of the EU AI Act. Replacing them with your own
+avoids the question.
+
 ## Licence
 
 MIT, see [LICENSE](LICENSE). Images: see [IMAGES.md](IMAGES.md).
